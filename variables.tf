@@ -3,4 +3,9 @@ variable "name_bastion_rds" {}
 variable "ami_bastion_rds" {}
 variable "instance_type" {}
 variable "vpc_zdh_cidr" {}
-#variable "sg_bastion_id" {}
+variable "instance_db_name" {}
+variable "engine_db" {}
+variable "version_db" {}
+variable "instance_calss_db" {}
+variable "family_db" {}
+variable "subnet_cidr2" {}

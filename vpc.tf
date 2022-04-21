@@ -11,3 +11,10 @@ data "aws_subnet" "selected" {
     values = [var.subnet_cidr]
   }
 }
+
+data "aws_subnet" "selected_cidr2" {
+  filter {
+    name   = "cidr"
+    values = [var.subnet_cidr2]
+  }
+}
